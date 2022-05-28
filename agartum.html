@@ -11,6 +11,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+        <script>
+            function Redirect(){
+                window.location="https://www.google.com"
+            }
+        </script>
+        
 </head>
 
 <body>
@@ -48,18 +54,21 @@
             </div>
         </div>
       <div class="container">
-            <form action="" class="container">
+        
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSen-nKfsheFLoIwypag6cF9EuUqQTRUUXDP4UheKsJ85LvshA/formResponse" class="container">
     <div class="row mt-5 sticky-bottom ">
         <h6>Post our comments</h6>
             <div class="col-lg-8 col-md-12 col-sm-12">
                 <div class="form-floating mb-5">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="entry.348894585">
                     <label for="floatingInput">Comments</label>
                 </div>
             </div>
             <div class="col-lg-2 col-md-12 col-sm-12">
-                <button type="submit" class="btn btn-danger  mt-auto mb-auto">Post</button>
+                <button type="submit" type="button" class="btn btn-danger  mt-auto mb-auto" onclick="Redirect();">Post</button>
+                
             </div>
+
         
         
     </div>
